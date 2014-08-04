@@ -4,9 +4,13 @@ Test of TouchAPI
 
 ## Installation
 run 
-```npm install``` 
+```
+npm install
+``` 
 and afterwards 
-```grunt```
+```
+grunt
+```
 
 ### Articles and tuts
 [html5Rocks](http://www.html5rocks.com/en/mobile/touch/)
