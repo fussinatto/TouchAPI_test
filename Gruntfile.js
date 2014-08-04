@@ -18,11 +18,12 @@ module.exports = function (grunt) {
     connect: {
       server: {
         options: {
-          hostname: 'localhost',
-          port: 9000,
-          livereload: true,
-          base: 'app'
-        }
+            port: 9000,
+            open: true,
+            livereload: 35729,
+            base: 'app',
+            hostname: '0.0.0.0'
+        },
       }
     },
     watch: {
